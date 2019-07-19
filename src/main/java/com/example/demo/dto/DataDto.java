@@ -5,7 +5,6 @@ public class DataDto {
 	public String binData;
 
 	public DataDto(String binData) {
-		super();
 		this.binData = binData;
 	}
 

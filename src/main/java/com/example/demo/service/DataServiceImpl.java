@@ -74,7 +74,7 @@ public class DataServiceImpl implements DataService {
 	     List<Integer> diffPosition = new ArrayList<>();
 	     
 	     if (left.length != right.length) {
-	            return " Data not equal";
+	            return "Data not equal";
          }
 	     
 	     for( int index = 0; index < left.length; ++index ) {

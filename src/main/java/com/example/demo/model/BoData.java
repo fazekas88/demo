@@ -16,8 +16,16 @@ public class BoData {
 
     @Column(name="RIGHT")
     private String right;
-    
-    
+
+	public BoData() {
+	}
+
+	public BoData(long id, String left, String right) {
+		this.id = id;
+		this.left = left;
+		this.right = right;
+	}
+
 	public long getId() {
 		return id;
 	}
